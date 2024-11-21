@@ -7,8 +7,6 @@ contract store {
 
     Animal[] public names_of_animals;
 
-
-
     function add_animal(string memory name) public {
         names_of_animals.push(Animal(name));
     }
